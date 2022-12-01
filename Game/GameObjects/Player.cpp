@@ -67,7 +67,7 @@ void Player::Render()
 	}
 	if (m_keyFlag == 3)
 	{
-		DrawTurnGraph(140, 290, m_underTexture, false);
+		DrawTurnGraph(140, 292, m_underTexture, false);
 	}
 }
 
