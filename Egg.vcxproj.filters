@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{cee235a9-ac58-4b1c-b2b8-6b10850ce609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib">
+      <UniqueIdentifier>{3edebb5a-924c-44f7-a675-1cdf4ac65704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibInput">
+      <UniqueIdentifier>{200ddd2d-db2c-40be-aebc-cbfcb442069e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibFade">
+      <UniqueIdentifier>{b6e50c11-5cad-47f1-8a6a-610d58a4485d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibGraphics">
+      <UniqueIdentifier>{6966772f-c606-4c33-ac89-b3ce55289b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibMath">
+      <UniqueIdentifier>{dcec2ffb-b625-4c21-a366-65ed0bb95e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\GameSystemObject">
+      <UniqueIdentifier>{4af21d5b-c126-4561-8f96-9c12290ad79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibTime">
+      <UniqueIdentifier>{57e1969a-6783-4cc3-b865-17de5187354f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{3230c6a2-5b6b-44df-bf1d-4ccab8721c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects">
+      <UniqueIdentifier>{213b764f-f644-4169-a137-8fe1f86bc235}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibInput\ExtendLibInput.cpp">
+      <Filter>ExtendLib\ExtendLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibFade\ExtendLibFade.cpp">
+      <Filter>ExtendLib\ExtendLibFade</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibGraphics\ExtendLibGraphics.cpp">
+      <Filter>ExtendLib\ExtendLibGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibMath\ExtendLibMath.cpp">
+      <Filter>ExtendLib\ExtendLibMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\GameSystemObject\GameSystemObjects.cpp">
+      <Filter>ExtendLib\GameSystemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibTime\ExtendLibTime.cpp">
+      <Filter>ExtendLib\ExtendLibTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scenes\Egg.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scenes\TitleScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Player.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\EggSpawn.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\MemoryLeakDetector.h">
+      <Filter>ExtendLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibInput\ExtendLibInput.h">
+      <Filter>ExtendLib\ExtendLibInput</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibFade\ExtendLibFade.h">
+      <Filter>ExtendLib\ExtendLibFade</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibGraphics\ExtendLibGraphics.h">
+      <Filter>ExtendLib\ExtendLibGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibMath\ExtendLibMath.h">
+      <Filter>ExtendLib\ExtendLibMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\GameSystemObject\GameSystemObjects.h">
+      <Filter>ExtendLib\GameSystemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibTime\ExtendLibTime.h">
+      <Filter>ExtendLib\ExtendLibTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\Egg.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\TitleScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Player.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Types.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\EggSpawn.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
