@@ -11,6 +11,11 @@ class TitleScene
 private:
 	Game* pGame;
 	int m_titleTexture;
+	int m_spaceKeyTexture;
+
+	//点滅用の変数
+	int flashtimer;
+
 
 public:
 	TitleScene();									//	コンストラクタと呼ばれる関数
