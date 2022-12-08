@@ -39,6 +39,7 @@ void EggSpawn::Initialize(int playerTexture,int dropTexture)
 void EggSpawn::Update()
 {
 	m_time++;
+	//卵が転がるスピード
 	if (m_time > 50)
 	{
 		m_rotate = m_rotate - 5;
