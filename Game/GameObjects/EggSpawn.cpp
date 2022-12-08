@@ -84,7 +84,7 @@ void EggSpawn::SetEggSpawnPosY(int y)
 	y = m_pos.y;
 }
 
-//settei
+//•Ï”‚ğİ’è
 float EggSpawn::GetEggSpawnPosX()
 {
 	return m_pos.x;
