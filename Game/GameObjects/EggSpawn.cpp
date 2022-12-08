@@ -55,11 +55,12 @@ void EggSpawn::Render()
 	//DrawGraph(70, 263, m_Texture, false);
 	if (m_count == 5)
 	{
+		//—‚¿‚½•û‚Ì•`‰æ
 		DrawGraph(140, 430, m_drop, false);
 	}
 	else
 	{
-		//‰ñ“]•`‰æ
+		//‰ñ“]•`‰æA—‘
 		DrawRotaGraph2(m_pos.x, m_pos.y,
 			9, 9.5, 1.0, m_rotate,
 			m_texture, false, false);
