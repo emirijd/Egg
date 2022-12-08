@@ -59,6 +59,7 @@ void EggSpawn::Render()
 	}
 	else
 	{
+		//‰ñ“]•`‰æ
 		DrawRotaGraph2(m_pos.x, m_pos.y,
 			9, 9.5, 1.0, m_rotate,
 			m_texture, false, false);
