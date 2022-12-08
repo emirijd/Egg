@@ -10,8 +10,11 @@
 class EggSpawn
 {
 private:
+	//—‘‰æ‘œ
 	int m_texture;
+	//—Ž‚¿‚½—‘‰æ‘œ
 	int m_drop;
+
 	int m_rotate;
 	int m_time;
 	int m_number;

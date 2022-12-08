@@ -28,9 +28,9 @@ void EggSpawn::Initialize(int playerTexture,int dropTexture)
 	m_pos.up_left_y = 223;
 	m_pos.bottom_left_x = 75;
 	m_pos.bottom_left_y = 330;
-	m_pos.up_right_x = 650;
-	m_pos.up_right_y = 223;
-	m_pos.bottom_right_x = 650;
+	m_pos.up_right_x = 640;
+	m_pos.up_right_y = 233;
+	m_pos.bottom_right_x = 640;
 	m_pos.bottom_right_y = 330;
 	m_number = rand() % 4;
 	m_count = 0;
@@ -265,7 +265,7 @@ void EggSpawn::UpRightUpdate()
 	//if (m_time > 50)
 	//{
 	//	m_rotate = m_rotate - 5;
-		m_pos.up_right_x = m_pos.up_right_x + 15;
+		m_pos.up_right_x = m_pos.up_right_x - 15;
 		m_pos.up_right_y = m_pos.up_right_y + 10;
 		//m_time = 0;
 		//m_count = m_count + 1;
@@ -281,8 +281,8 @@ void EggSpawn::UpRightUpdate()
 
 void EggSpawn::UpRightUpdate2()
 {
-	m_pos.up_right_x = 650;
-	m_pos.up_right_y = 223;
+	m_pos.up_right_x = 640;
+	m_pos.up_right_y = 233;
 
 }
 
@@ -321,7 +321,7 @@ void EggSpawn::BottomRightUpdate()
 	//if (m_time > 50)
 	//{
 	//	m_rotate = m_rotate - 5;
-		m_pos.bottom_right_x = m_pos.bottom_right_x + 15;
+		m_pos.bottom_right_x = m_pos.bottom_right_x - 15;
 		m_pos.bottom_right_y = m_pos.bottom_right_y + 10;
 	//	m_time = 0;
 	//	m_count = m_count + 1;
@@ -337,7 +337,7 @@ void EggSpawn::BottomRightUpdate()
 
 void EggSpawn::BottomRightUpdate2()
 {
-	m_pos.bottom_right_x = 650;
+	m_pos.bottom_right_x = 640;
 	m_pos.bottom_right_y = 330;
 
 }
