@@ -38,12 +38,43 @@ public:
 
 	//左上更新
 	void UpLeftUpdate();
+	//左上更新
+	void UpLeftUpdate2();
+
 	//左上描画
 	void UpLeftRender();
+	//左上描画
+	void UpLeftRender2();
 
 	//左下更新
 	void BottomLeftUpdate();
+	//左下更新
+	void BottomLeftUpdate2();
+
 	//左下描画
 	void BottomLeftRender();
+	//左下描画
+	void BottomLeftRender2();
+
+	//右上更新
+	void UpRightUpdate();
+	//右上更新
+	void UpRightUpdate2();
+	//右上描画
+	void UpRightRender();
+	//右上描画
+	void UpRightRender2();
+
+
+	//右下更新
+	void BottomRightUpdate();
+	//右下更新
+	void BottomRightUpdate2();
+	//右下描画
+	void BottomRightRender();
+	//右下描画
+	void BottomRightRender2();
+
+
 
 };
