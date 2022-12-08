@@ -71,3 +71,26 @@ void EggSpawn::Finalize()
 {
 
 }
+
+
+//ç¿ïWÇìnÇ∑
+void EggSpawn::SetEggSpawnPosX(int x)
+{
+	x = m_pos.x;
+}
+
+void EggSpawn::SetEggSpawnPosY(int y)
+{
+	y = m_pos.y;
+}
+
+//settei
+float EggSpawn::GetEggSpawnPosX()
+{
+	return m_pos.x;
+}
+
+float EggSpawn::GetEggSpawnPosY()
+{
+	return m_pos.y;
+}

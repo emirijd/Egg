@@ -17,6 +17,10 @@ private:
 	//下向き用のテクスチャ
 	int m_underTexture;
 
+
+	float m_eggSpawnPosX;
+	float m_eggSpawnPosY;
+
 public:
 	Player();									//	コンストラクタと呼ばれる関数
 	~Player();								//	デストラクタと呼ばれる関数
@@ -25,4 +29,9 @@ public:
 	void Update();							//	ゲームの更新処理を行う関数
 	void Render();							//	ゲームの描画を行う関数。Drawと書く場合もある
 	void Finalize();
+
+	//EggSpawnクラスの座標を設定
+	float GetEggSpawnPosX();
+	float GetEggSpawnPosY();
+
 };

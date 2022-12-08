@@ -74,3 +74,16 @@ void Player::Render()
 void Player::Finalize()
 {
 }
+
+
+
+
+float Player::GetEggSpawnPosX()
+{
+	return m_eggSpawnPosX;
+}
+
+float Player::GetEggSpawnPosY()
+{
+	return m_eggSpawnPosY;
+}

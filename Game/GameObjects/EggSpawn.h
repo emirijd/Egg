@@ -27,4 +27,12 @@ public:
 	void Update();							//	ゲームの更新処理を行う関数
 	void Render();							//	ゲームの描画を行う関数。Drawと書く場合もある
 	void Finalize();
+	
+	//座標を渡す
+	void SetEggSpawnPosX(int x);
+	void SetEggSpawnPosY(int y);
+
+	float GetEggSpawnPosX();
+	float GetEggSpawnPosY();
+
 };
