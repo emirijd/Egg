@@ -24,8 +24,8 @@ void EggSpawn::Initialize(int playerTexture,int dropTexture)
 	m_drop = dropTexture;
 	m_rotate = 0;
 	m_time = 0;
-	m_pos.x = 73;
-	m_pos.y = 223;
+	m_pos.up_left_x = 73;
+	m_pos.up_left_y = 223;
 	m_number = rand() % 4;
 	m_count = 0;
 }
@@ -36,16 +36,16 @@ void EggSpawn::Update()
 	if (m_time > 50)
 	{
 		m_rotate = m_rotate - 5;
-		m_pos.x = m_pos.x + 15;
-		m_pos.y = m_pos.y + 10;
+		m_pos.up_left_x = m_pos.up_left_x + 15;
+		m_pos.up_left_y = m_pos.up_left_y + 10;
 		m_time= 0;
 		m_count = m_count + 1;
 	}
 	if (m_count > 5)
 	{
 		m_count = 0;
-		m_pos.x = 73;
-		m_pos.y = 223;
+		m_pos.up_left_x = 73;
+		m_pos.up_left_y = 223;
 	}
 }
 
@@ -61,7 +61,7 @@ void EggSpawn::Render()
 	else
 	{
 		//âÒì]ï`âÊÅAóë
-		DrawRotaGraph2(m_pos.x, m_pos.y,
+		DrawRotaGraph2(m_pos.up_left_x, m_pos.up_left_y,
 			9, 9.5, 1.0, m_rotate,
 			m_texture, false, false);
 	}
@@ -69,7 +69,6 @@ void EggSpawn::Render()
 
 void EggSpawn::Finalize()
 {
-
 }
 
 
