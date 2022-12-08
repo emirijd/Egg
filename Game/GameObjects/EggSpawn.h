@@ -17,6 +17,7 @@ private:
 	int m_number;
 	int m_count;
 
+
 	Position m_pos;
 
 public:
@@ -34,5 +35,15 @@ public:
 
 	float GetEggSpawnPosX();
 	float GetEggSpawnPosY();
+
+	//左上更新
+	void UpLeftUpdate();
+	//左上描画
+	void UpLeftRender();
+
+	//左下更新
+	void BottomLeftUpdate();
+	//左下描画
+	void BottomLeftRender();
 
 };
